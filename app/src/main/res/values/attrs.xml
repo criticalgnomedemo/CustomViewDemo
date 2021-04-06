@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AddressView">
+        <attr name="zip_code" format="string" />
+        <attr name="country" format="string" />
+        <attr name="city" format="string" />
+        <attr name="line1" format="string" />
+        <attr name="line2" format="string" />
+    </declare-styleable>
+
+</resources>
