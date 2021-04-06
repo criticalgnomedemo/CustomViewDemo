@@ -10,11 +10,11 @@
         android:id="@+id/address1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:zip_code="220045"
-        app:country="Belarus"
-        app:city="Minsk"
-        app:line1="2, Giedroyc st"
-        app:line2="Apartment 111"
+        app:zip_code="39531"
+        app:country="USA"
+        app:city="New York"
+        app:line1="40, Sit Rd."
+        app:line2="Ap #867-859"
         app:layout_constraintTop_toTopOf="parent"
         />
 

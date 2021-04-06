@@ -4,15 +4,15 @@ import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.view.View
-import android.widget.FrameLayout
 import android.widget.TextView
+import androidx.constraintlayout.widget.ConstraintLayout
 
 @Suppress("MemberVisibilityCanBePrivate")
 class AddressView @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
     defStyleAttr: Int = 0
-): FrameLayout(context, attrs, defStyleAttr) {
+): ConstraintLayout(context, attrs, defStyleAttr) {
 
     private val addressViewZipCode: TextView
     private val addressViewCountry: TextView

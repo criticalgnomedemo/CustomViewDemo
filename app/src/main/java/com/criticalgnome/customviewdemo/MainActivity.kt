@@ -9,11 +9,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         findViewById<AddressView>(R.id.address2).apply {
-            zipCode = "220045"
-            country = "Belarus"
-            city = "Minsk"
-            line1 = "2, Giedroyc st"
-            line2 = "Apartment 111"
+            zipCode = "39531"
+            country = "USA"
+            city = "New York"
+            line1 = "40, Sit Rd."
+            line2 = "Ap #867-859"
         }
     }
 }
